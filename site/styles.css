@@ -36,19 +36,21 @@ a:hover {
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 0;
 }
 
 .nav .name {
     display: block;
     margin-right: auto;
+    margin-top: 15px;
     color:#bd28a4;
     font-family: 'Yellowtail', cursive;
     font-size: 22px;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  margin-top: 15px;
 }
 .nav a {
   transition: all .5s;
@@ -131,6 +133,19 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #bd28a4;
+}
+
+.main-nav .profile-image {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid grey;
+  transition: all .5s;
+  float: left;
+}
+
+.main-nav .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
 }
 
 footer {
